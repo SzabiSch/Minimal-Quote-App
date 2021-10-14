@@ -51,6 +51,9 @@ p,
 small {
   padding: 3rem;
 }
+small::before {
+  content: "--";
+}
 
 @media screen and (min-width: 600px) {
   p,
